@@ -1,0 +1,30 @@
+# def fibonacci(n):
+#     if n == 0:
+#         return 0
+#     elif n == 1:
+#         return 1
+#     else:
+#         return fibonacci(n - 1) + fibonacci(n - 2)
+#
+#
+# n = int(input("enter the number: "))
+# print("Fibonacci series: ")
+# for n in range(0, n):
+#     print(fibonacci(n))
+#
+# bu oddiy usullar bilan chiqarilgani
+
+# def generatorFibonaci():
+#     number1 = 1
+#     number2 = 1
+#     while True:
+#         number = number1
+#         number1 = number2
+#         number2 = number + number2
+#         yield number
+#
+#
+# raqam = generatorFibonaci()
+# son = int(input("Sonni kiriting: "))
+# for i in range(0, son + 1):
+#     print(next(raqam))
